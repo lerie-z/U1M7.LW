@@ -112,4 +112,3 @@ ALTER TABLE u_dw_calendar.dw_date
    ADD CONSTRAINT fk_dw_date_ref_dw_t_quater FOREIGN KEY (quater_id)
       REFERENCES u_dw_calendar.t_quater (quater_id);
 
-drop tab
